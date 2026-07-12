@@ -1,5 +1,4 @@
 # Python Practice Projects
-
 Welcome to my Python practice repository! This folder is dedicated to building a solid foundation in Python, starting from core concepts like variables, data types, and loops, and moving towards string manipulation and advanced programming logic — as part of my preparation for a career in **Data Analysis / Data Engineering**.
 
 ## 📂 Project List & Descriptions
@@ -80,6 +79,84 @@ Here are the programs I practiced to strengthen my understanding of Python strin
 
 ---
 
+### 🔹 List Manipulation Practice
+
+Here are the programs I practiced in `Python_List_practice.ipynb` to build a strong grip on Python lists — indexing, slicing, comprehensions, and nested data structures, all of which are core to real-world data wrangling:
+
+#### 1. Highest Price & Price Count
+- **Description:** Finds the index of the highest price in a list and counts how many prices exceed a given threshold (200).
+- **Key Concepts Used:** `max()`, `.index()`, `for` loops, conditional counting.
+
+#### 2. Word List Transformations
+- **Description:** Given a list of words, generates an uppercase version, filters words longer than 3 characters, computes each word's length, builds `(word, length)` tuples, and classifies each word as `"short"` or `"long"`.
+- **Key Concepts Used:** `.upper()`, `len()`, tuple creation, conditional classification, `for` loops.
+
+#### 3. Fever Flagging (List Comprehensions)
+- **Description:** Flags each temperature reading as `"Fever"` or `"Normal"` based on a threshold, then extracts only the fever readings using comprehension.
+- **Key Concepts Used:** Conditional expressions in comprehensions, filtering with comprehensions.
+
+#### 4. Nested Lists — Mini Employee Dataset
+- **Description:** Works with a nested list representing employee records (Name, Age, Department, Salary). Extracts names and salaries, computes the average salary, finds the highest-paid employee, filters employees by department, filters by age, calculates total department payroll, builds `[name, salary]` pairs, finds unique departments, and sorts employees by salary.
+- **Key Concepts Used:** Nested list indexing, list comprehensions, `sum()`, `max()`, `set()`, `sorted()` with `key=lambda`.
+
+#### 5. Sales Data Cleanup (Zero Replacement)
+- **Description:** Replaces missing/zero values in a daily sales list with the average sales value.
+- **Key Concepts Used:** `sum()`, `len()`, index-based list mutation.
+
+#### 6. Longest Streak of Consecutive Sales Days
+- **Description:** Finds the longest streak of consecutive non-zero sales days in the dataset.
+- **Key Concepts Used:** Streak/counter tracking logic, conditional resets while iterating.
+
+#### 7. Running Total (Cumulative Sum)
+- **Description:** Builds a cumulative sum list from the daily sales data.
+- **Key Concepts Used:** Accumulator pattern, `for` loops, `.append()`.
+
+#### 8. Weekly Chunking
+- **Description:** Splits the sales list into chunks of 3 (simulating weekly groupings), producing a list of lists.
+- **Key Concepts Used:** List slicing, `range()` with step, list comprehension.
+
+#### 9. Cricket Team List
+- **Description:** Builds a list of cricketers, prints the first and last player, and replaces a player at a specific position.
+- **Key Concepts Used:** Positive/negative indexing, item reassignment.
+
+#### 10. Food Party List
+- **Description:** Builds a food items list, appends a new item, inserts an item at a specific position, and removes an item.
+- **Key Concepts Used:** `.append()`, `.insert()`, `.remove()`.
+
+#### 11. Numbers Magic
+- **Description:** Computes the sum, maximum, and minimum of a number list, then updates a specific element via multiplication.
+- **Key Concepts Used:** `sum()`, `max()`, `min()`, index-based updates.
+
+#### 12. Mixed Bag (Multiple Data Types)
+- **Description:** Creates a list containing a string, integer, float, and boolean; prints each element's type; and replaces the float value with a new one.
+- **Key Concepts Used:** `type()`, mixed data type handling, conditional replacement.
+
+#### 13. Shopping Cart
+- **Description:** Builds a shopping list, adds multiple items at once, counts total items, and removes an item.
+- **Key Concepts Used:** `.extend()`, `len()`, `.remove()`.
+
+#### 14. Superheroes List
+- **Description:** Builds a superhero list, prints two elements together via slicing, and reverses the list without using loops.
+- **Key Concepts Used:** List slicing, `[::-1]` reversal trick.
+
+#### 15. Double Trouble (List Repetition vs. Element-wise Operations)
+- **Description:** Demonstrates the difference between repeating a list (`list * n`) and doubling every element inside it using a list comprehension.
+- **Key Concepts Used:** List repetition operator, list comprehensions.
+
+#### 16. Classroom Students
+- **Description:** Swaps the first and last student in a list, then removes one student and inserts a new one at a specific position.
+- **Key Concepts Used:** Variable swapping, `.remove()`, `.insert()`.
+
+#### 17. Funny Mix (Zipping Two Lists)
+- **Description:** Merges two related lists (players and their teams) using `zip()`, then retrieves the first pair using direct indexing.
+- **Key Concepts Used:** `zip()`, `list()` conversion, indexing.
+
+#### 18. Lucky Draw
+- **Description:** Picks the "middle" name from a list of names using integer division, and extracts groups from the start and end of the list (early bird and special prize winners).
+- **Key Concepts Used:** Floor division (`//`) for middle-index calculation, list slicing (`[:n]`, `[-n:]`).
+
+---
+
 ## 🛠️ Environment & Tools
 
 - **Language:** Python 3.x
@@ -88,4 +165,4 @@ Here are the programs I practiced to strengthen my understanding of Python strin
 
 ## 🎯 Purpose
 
-This repository is part of my learning journey as I transition into a **Data Analyst / Data Engineer** role. Strong fundamentals in Python — especially string and data manipulation — are essential for tasks like data cleaning, parsing, and preprocessing in real-world data pipelines.
+This repository is part of my learning journey as I transition into a **Data Analyst / Data Engineer** role. Strong fundamentals in Python — especially string, list, and data manipulation — are essential for tasks like data cleaning, parsing, and preprocessing in real-world data pipelines.
